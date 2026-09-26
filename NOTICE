@@ -1,0 +1,15 @@
+DWS research source artifact
+
+This distribution contains Python source imported from SGLang 0.5.10.
+SGLang: https://github.com/sgl-project/sglang
+Copyright and license notices embedded in the source remain in force.
+The upstream Apache License, Version 2.0 is included in LICENSE.
+
+DWS modifications include denoising instrumentation, prediction adapters,
+cost profiling/calibration, request scheduling and serving metrics.
+Packaging makes external paths configurable and consolidates predictor
+training and quantization into standalone scripts.
+Modified engine files carry a DWS modification notice.
+
+No ownership is asserted over the upstream engine, third-party algorithms,
+pretrained model weights, tokenizers or conversation datasets.
